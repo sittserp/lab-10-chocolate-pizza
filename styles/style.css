@@ -47,6 +47,36 @@ header {
     background-color: var(--color3);
     height: center;
     box-shadow: var(--shadow);
+    width: 900px;
+}
+
+span {
+    display: flex;
+    width: 900px;
+}
+
+span p {
+    color: gray;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:lightgray;
+    height: 20px;
+  }
+
+
+#line {
+    float: left;
+    width: 731px;
+    height: 10px;
 }
 
 footer {
