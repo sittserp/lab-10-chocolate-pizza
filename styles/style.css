@@ -72,6 +72,10 @@ hr {
     height: 20px;
   }
 
+#grey-line {
+    width: 50px;
+}
+
 
 #line {
     float: left;
