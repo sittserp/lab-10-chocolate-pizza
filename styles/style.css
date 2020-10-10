@@ -72,10 +72,19 @@ hr {
     height: 20px;
   }
 
-#grey-line {
-    width: 50px;
+#list {
+    display: flex;
+    background-image: url(../assets/list-bg.png);
 }
 
+ul {
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
 
 #line {
     float: left;
